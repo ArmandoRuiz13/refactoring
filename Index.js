@@ -11,5 +11,3 @@ const explorersAmmoutInNode = ExplorerService.getAmountOfExplorersByMission(expl
 console.log("cantidad Explorer con mission node", explorersAmmoutInNode)
 const usernamesInNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node")
 console.log("Explorer usuario con mission node", usernamesInNode)
-explorer = FizzbuzzService.applyValidationInExplorer(explorers) 
-console.log("Explorer validacion fizz  buzz y fizzbuzz", explorer.trick)
