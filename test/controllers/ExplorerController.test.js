@@ -20,10 +20,8 @@ describe("Prueba unitaria de ExplorerController", () =>{
         expect(usernamesInNode).toContain("ajolonauta14");
         expect(usernamesInNode).toContain("ajolonauta15");
     });
-    test("Este prueba regresa los explorer de una mission", () => {
-        // Codogigo que vamos a utlizar tal cual
-        const explorersInNode = ExplorerController.getExplorersByMission("node");
-        // Validamos el codigo que esperamos
-        expect(explorersInNode).not.toBeUndefined();
+    test("Prueba 3 cantidad de explorers por mision elegida", () => {
+        const explorersAmmoutInNode = ExplorerController.getExplorersAmonutByMission("node");
+        expect(explorersAmmoutInNode).toBe(10);
     });
 });
