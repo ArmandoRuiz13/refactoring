@@ -27,6 +27,6 @@ describe("Prueba unitaria de ExplorerController", () =>{
     test("Prueba 4 obtener strick dependiendo el numero prueba getnumbervalidation", () => {
 
         const number = ExplorerController.getNumberValidation(3);
-        expect(number).toBe(FIZZ);
+        expect(number).toBe('FIZZ');
     });
 });
