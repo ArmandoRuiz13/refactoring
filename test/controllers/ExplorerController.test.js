@@ -24,4 +24,9 @@ describe("Prueba unitaria de ExplorerController", () =>{
         const explorersAmmoutInNode = ExplorerController.getExplorersAmonutByMission("node");
         expect(explorersAmmoutInNode).toBe(10);
     });
+    test("Prueba 4 obtener strick dependiendo el numero prueba getnumbervalidation", () => {
+
+        const number = ExplorerController.getNumberValidation(3);
+        expect(number).toBe(FIZZ);
+    });
 });
