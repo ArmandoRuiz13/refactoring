@@ -24,18 +24,18 @@ describe("Prueba unitaria para ExplorerService", () =>{
         expect(explorer.trick).toBe("FIZZBUZZ");
     });
     test("Prueba 5 Imprime un valor numerico dependiendo si es divisible se le aplica una propiedad nueva", () => {
-        const number1 = 1; 
-        const number2 = 3;
-        const number3 = 5;
-        const number4 = 15;
-        number01 = FizzbuzzService.applyValidationInNumber(number1);
-        number02 = FizzbuzzService.applyValidationInNumber(number2);
-        number03 = FizzbuzzService.applyValidationInNumber(number3);
-        number04 = FizzbuzzService.applyValidationInNumber(number4);
-        expect(number01).toBe(1);
-        expect(number02).toBe("FIZZ");
-        expect(number03).toBe("BUZZ");
-        expect(number04).toBe("FIZZBUZZ");
+        const num1 = 1; 
+        const num2 = 3;
+        const num3 = 5;
+        const num4 = 15;
+        num01 = FizzbuzzService.applyValidationInNumber(num1);
+        num02 = FizzbuzzService.applyValidationInNumber(num2);
+        num03 = FizzbuzzService.applyValidationInNumber(num3);
+        num04 = FizzbuzzService.applyValidationInNumber(num4);
+        expect(num01).toBe(1);
+        expect(num02).toBe("FIZZ");
+        expect(num03).toBe("BUZZ");
+        expect(num04).toBe("FIZZBUZZ");
     });
 
 });
